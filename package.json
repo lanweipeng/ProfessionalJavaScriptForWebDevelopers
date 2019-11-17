@@ -1,0 +1,12 @@
+{
+  "name": "ProfessionalJavaScriptForWebDevelopers",
+  "version": "1.0.0",
+  "description": "采用注释+代码的方式，注释是简要知识点，代码可以自行打开注释运行结果",
+  "main": "jQuery-lwp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
