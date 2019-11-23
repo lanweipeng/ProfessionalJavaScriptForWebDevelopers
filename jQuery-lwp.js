@@ -126,3 +126,14 @@ $.removeClass = function (string) {
   element.classList.remove(string)
 }
 
+$.getClipboardText=function(event){
+  var clipboardData=(event.clipboardData||window.clipboardData)
+  return clipboardData.getData('text')
+}
+$.setClipboardText=function(event,value){
+  if(event.clipboardData){
+    return event.clipboardData.setData('text/plian',value)
+  }else if(window.clipboardData){
+    return window.clipboardData.setData('text',value)
+  }
+}
